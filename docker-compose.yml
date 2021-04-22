@@ -1,0 +1,16 @@
+version: "3.5"
+
+networks:
+  upsell_network:
+    external: true
+
+services:
+  web:
+    build: .
+    restart: always
+    container_name: upsell_frontend
+    ports:
+      - 8080:8080
+    networks:
+      - upsell_network
+    image: upsell_frontend

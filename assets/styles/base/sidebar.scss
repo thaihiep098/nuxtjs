@@ -1,0 +1,48 @@
+.sidebar.call-center {
+  background: black;
+  width: $width-sidebar;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      background: lightblue;
+
+      &:nth-child(1) {
+        background: orange;
+      }
+
+      &:nth-child(2) {
+        background: green;
+      }
+
+      p {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+}
+
+.card {
+  &.blue {
+    .card-header {
+      background: darkgreen;
+    }
+
+    border: 2px solid darkgreen;
+  }
+
+  &.gray {
+    .card-header {
+      background: darkseagreen;
+    }
+
+    border: 2px solid darkseagreen;
+  }
+}
+
+.lists {
+  max-height: 25rem;
+  overflow: auto;
+}

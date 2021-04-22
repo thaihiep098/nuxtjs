@@ -1,0 +1,21 @@
+.row.top-header {
+  background: #00b436;
+  padding: 1.5rem;
+}
+
+.wrapper {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  overflow: auto;
+  padding: 1.3rem;
+}

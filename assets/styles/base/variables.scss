@@ -1,0 +1,18 @@
+$font-default: 'Poppins', sans-serif;
+
+$width-sidebar: 7%;
+
+$breakpoints: (
+  'xs': (
+    max-width: 767.98px,
+  ),
+  'sm': (
+    min-width: 768px,
+  ),
+  'md': (
+    min-width: 991px,
+  ),
+  'lg': (
+    min-width: 1200px,
+  ),
+) !default;
